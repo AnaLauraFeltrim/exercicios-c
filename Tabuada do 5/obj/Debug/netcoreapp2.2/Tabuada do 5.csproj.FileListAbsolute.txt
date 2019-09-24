@@ -1,0 +1,22 @@
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Tabuada do 5\obj\Debug\netcoreapp2.2\Tabuada do 5.csprojAssemblyReference.cache
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Tabuada do 5\obj\Debug\netcoreapp2.2\Tabuada do 5.csproj.CoreCompileInputs.cache
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Tabuada do 5\obj\Debug\netcoreapp2.2\Tabuada do 5.AssemblyInfoInputs.cache
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Tabuada do 5\obj\Debug\netcoreapp2.2\Tabuada do 5.AssemblyInfo.cs
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Tabuada do 5\bin\Debug\netcoreapp2.2\Tabuada do 5.deps.json
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Tabuada do 5\bin\Debug\netcoreapp2.2\Tabuada do 5.runtimeconfig.json
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Tabuada do 5\bin\Debug\netcoreapp2.2\Tabuada do 5.runtimeconfig.dev.json
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Tabuada do 5\bin\Debug\netcoreapp2.2\Tabuada do 5.dll
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Tabuada do 5\bin\Debug\netcoreapp2.2\Tabuada do 5.pdb
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Tabuada do 5\obj\Debug\netcoreapp2.2\Tabuada do 5.dll
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Tabuada do 5\obj\Debug\netcoreapp2.2\Tabuada do 5.pdb
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\Tabuada do 5\bin\Debug\netcoreapp2.2\Tabuada do 5.deps.json
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\Tabuada do 5\bin\Debug\netcoreapp2.2\Tabuada do 5.runtimeconfig.json
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\Tabuada do 5\bin\Debug\netcoreapp2.2\Tabuada do 5.runtimeconfig.dev.json
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\Tabuada do 5\bin\Debug\netcoreapp2.2\Tabuada do 5.dll
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\Tabuada do 5\bin\Debug\netcoreapp2.2\Tabuada do 5.pdb
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\Tabuada do 5\obj\Debug\netcoreapp2.2\Tabuada do 5.csprojAssemblyReference.cache
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\Tabuada do 5\obj\Debug\netcoreapp2.2\Tabuada do 5.csproj.CoreCompileInputs.cache
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\Tabuada do 5\obj\Debug\netcoreapp2.2\Tabuada do 5.AssemblyInfoInputs.cache
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\Tabuada do 5\obj\Debug\netcoreapp2.2\Tabuada do 5.AssemblyInfo.cs
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\Tabuada do 5\obj\Debug\netcoreapp2.2\Tabuada do 5.dll
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\Tabuada do 5\obj\Debug\netcoreapp2.2\Tabuada do 5.pdb

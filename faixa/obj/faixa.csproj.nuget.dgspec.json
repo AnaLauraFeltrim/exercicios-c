@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\46962757875\\Downloads\\exerc-cios-c-de-vdd-master\\exerc-cios-c-de-vdd-master\\faixa\\faixa.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\46962757875\\Downloads\\exerc-cios-c-de-vdd-master\\exerc-cios-c-de-vdd-master\\faixa\\faixa.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\46962757875\\Downloads\\exerc-cios-c-de-vdd-master\\exerc-cios-c-de-vdd-master\\faixa\\faixa.csproj",
+        "projectName": "faixa",
+        "projectPath": "C:\\Users\\46962757875\\Downloads\\exerc-cios-c-de-vdd-master\\exerc-cios-c-de-vdd-master\\faixa\\faixa.csproj",
+        "packagesPath": "C:\\Users\\46962757875\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\46962757875\\Downloads\\exerc-cios-c-de-vdd-master\\exerc-cios-c-de-vdd-master\\faixa\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\46962757875\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

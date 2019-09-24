@@ -1,0 +1,11 @@
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\Area dos bagulho\obj\Debug\netcoreapp2.2\Area dos bagulho.csprojAssemblyReference.cache
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\Area dos bagulho\obj\Debug\netcoreapp2.2\Area dos bagulho.csproj.CoreCompileInputs.cache
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\Area dos bagulho\obj\Debug\netcoreapp2.2\Area dos bagulho.AssemblyInfoInputs.cache
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\Area dos bagulho\obj\Debug\netcoreapp2.2\Area dos bagulho.AssemblyInfo.cs
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\Area dos bagulho\bin\Debug\netcoreapp2.2\Area dos bagulho.deps.json
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\Area dos bagulho\bin\Debug\netcoreapp2.2\Area dos bagulho.runtimeconfig.json
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\Area dos bagulho\bin\Debug\netcoreapp2.2\Area dos bagulho.runtimeconfig.dev.json
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\Area dos bagulho\bin\Debug\netcoreapp2.2\Area dos bagulho.dll
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\Area dos bagulho\bin\Debug\netcoreapp2.2\Area dos bagulho.pdb
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\Area dos bagulho\obj\Debug\netcoreapp2.2\Area dos bagulho.dll
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\Area dos bagulho\obj\Debug\netcoreapp2.2\Area dos bagulho.pdb

@@ -1,0 +1,11 @@
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\login e senha\obj\Debug\netcoreapp2.2\login e senha.csprojAssemblyReference.cache
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\login e senha\obj\Debug\netcoreapp2.2\login e senha.csproj.CoreCompileInputs.cache
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\login e senha\obj\Debug\netcoreapp2.2\login e senha.AssemblyInfoInputs.cache
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\login e senha\obj\Debug\netcoreapp2.2\login e senha.AssemblyInfo.cs
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\login e senha\bin\Debug\netcoreapp2.2\login e senha.deps.json
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\login e senha\bin\Debug\netcoreapp2.2\login e senha.runtimeconfig.json
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\login e senha\bin\Debug\netcoreapp2.2\login e senha.runtimeconfig.dev.json
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\login e senha\bin\Debug\netcoreapp2.2\login e senha.dll
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\login e senha\bin\Debug\netcoreapp2.2\login e senha.pdb
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\login e senha\obj\Debug\netcoreapp2.2\login e senha.dll
+C:\Users\46962757875\Documents\Vai se foder\exerc-cios-c-de-vdd-master\login e senha\obj\Debug\netcoreapp2.2\login e senha.pdb

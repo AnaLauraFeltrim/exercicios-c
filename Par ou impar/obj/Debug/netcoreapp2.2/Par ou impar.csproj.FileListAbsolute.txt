@@ -1,0 +1,11 @@
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Par ou impar\obj\Debug\netcoreapp2.2\Par ou impar.csprojAssemblyReference.cache
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Par ou impar\obj\Debug\netcoreapp2.2\Par ou impar.csproj.CoreCompileInputs.cache
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Par ou impar\obj\Debug\netcoreapp2.2\Par ou impar.AssemblyInfoInputs.cache
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Par ou impar\obj\Debug\netcoreapp2.2\Par ou impar.AssemblyInfo.cs
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Par ou impar\bin\Debug\netcoreapp2.2\Par ou impar.deps.json
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Par ou impar\bin\Debug\netcoreapp2.2\Par ou impar.runtimeconfig.json
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Par ou impar\bin\Debug\netcoreapp2.2\Par ou impar.runtimeconfig.dev.json
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Par ou impar\bin\Debug\netcoreapp2.2\Par ou impar.dll
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Par ou impar\bin\Debug\netcoreapp2.2\Par ou impar.pdb
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Par ou impar\obj\Debug\netcoreapp2.2\Par ou impar.dll
+C:\Users\46962757875\Documents\Ana Laura vai se fude\exerc-cios-c-de-vdd\Par ou impar\obj\Debug\netcoreapp2.2\Par ou impar.pdb

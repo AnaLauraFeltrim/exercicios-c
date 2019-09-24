@@ -1,0 +1,11 @@
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\faixa\obj\Debug\netcoreapp2.2\faixa.csprojAssemblyReference.cache
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\faixa\obj\Debug\netcoreapp2.2\faixa.csproj.CoreCompileInputs.cache
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\faixa\obj\Debug\netcoreapp2.2\faixa.AssemblyInfoInputs.cache
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\faixa\obj\Debug\netcoreapp2.2\faixa.AssemblyInfo.cs
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\faixa\bin\Debug\netcoreapp2.2\faixa.deps.json
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\faixa\bin\Debug\netcoreapp2.2\faixa.runtimeconfig.json
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\faixa\bin\Debug\netcoreapp2.2\faixa.runtimeconfig.dev.json
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\faixa\bin\Debug\netcoreapp2.2\faixa.dll
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\faixa\bin\Debug\netcoreapp2.2\faixa.pdb
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\faixa\obj\Debug\netcoreapp2.2\faixa.dll
+C:\Users\46962757875\Downloads\exerc-cios-c-de-vdd-master\exerc-cios-c-de-vdd-master\faixa\obj\Debug\netcoreapp2.2\faixa.pdb

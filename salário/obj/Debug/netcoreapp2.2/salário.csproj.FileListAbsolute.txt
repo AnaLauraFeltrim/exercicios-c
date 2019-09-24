@@ -1,0 +1,11 @@
+C:\Users\46962757875\Documents\Ana Laura vai se fude\c#\salário\obj\Debug\netcoreapp2.2\salário.csprojAssemblyReference.cache
+C:\Users\46962757875\Documents\Ana Laura vai se fude\c#\salário\obj\Debug\netcoreapp2.2\salário.csproj.CoreCompileInputs.cache
+C:\Users\46962757875\Documents\Ana Laura vai se fude\c#\salário\obj\Debug\netcoreapp2.2\salário.AssemblyInfoInputs.cache
+C:\Users\46962757875\Documents\Ana Laura vai se fude\c#\salário\obj\Debug\netcoreapp2.2\salário.AssemblyInfo.cs
+C:\Users\46962757875\Documents\Ana Laura vai se fude\c#\salário\bin\Debug\netcoreapp2.2\salário.deps.json
+C:\Users\46962757875\Documents\Ana Laura vai se fude\c#\salário\bin\Debug\netcoreapp2.2\salário.runtimeconfig.json
+C:\Users\46962757875\Documents\Ana Laura vai se fude\c#\salário\bin\Debug\netcoreapp2.2\salário.runtimeconfig.dev.json
+C:\Users\46962757875\Documents\Ana Laura vai se fude\c#\salário\bin\Debug\netcoreapp2.2\salário.dll
+C:\Users\46962757875\Documents\Ana Laura vai se fude\c#\salário\bin\Debug\netcoreapp2.2\salário.pdb
+C:\Users\46962757875\Documents\Ana Laura vai se fude\c#\salário\obj\Debug\netcoreapp2.2\salário.dll
+C:\Users\46962757875\Documents\Ana Laura vai se fude\c#\salário\obj\Debug\netcoreapp2.2\salário.pdb
