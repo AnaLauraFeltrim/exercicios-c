@@ -1,0 +1,11 @@
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\!bdfdrzsg\bin\Debug\netcoreapp2.2\!bdfdrzsg.deps.json
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\!bdfdrzsg\bin\Debug\netcoreapp2.2\!bdfdrzsg.runtimeconfig.json
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\!bdfdrzsg\bin\Debug\netcoreapp2.2\!bdfdrzsg.runtimeconfig.dev.json
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\!bdfdrzsg\bin\Debug\netcoreapp2.2\!bdfdrzsg.dll
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\!bdfdrzsg\bin\Debug\netcoreapp2.2\!bdfdrzsg.pdb
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\!bdfdrzsg\obj\Debug\netcoreapp2.2\!bdfdrzsg.csprojAssemblyReference.cache
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\!bdfdrzsg\obj\Debug\netcoreapp2.2\!bdfdrzsg.csproj.CoreCompileInputs.cache
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\!bdfdrzsg\obj\Debug\netcoreapp2.2\!bdfdrzsg.AssemblyInfoInputs.cache
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\!bdfdrzsg\obj\Debug\netcoreapp2.2\!bdfdrzsg.AssemblyInfo.cs
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\!bdfdrzsg\obj\Debug\netcoreapp2.2\!bdfdrzsg.dll
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\!bdfdrzsg\obj\Debug\netcoreapp2.2\!bdfdrzsg.pdb
