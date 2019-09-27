@@ -1,0 +1,11 @@
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\mcBonalds\obj\Debug\netcoreapp2.2\mcBonalds.csprojAssemblyReference.cache
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\mcBonalds\obj\Debug\netcoreapp2.2\mcBonalds.csproj.CoreCompileInputs.cache
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\mcBonalds\obj\Debug\netcoreapp2.2\mcBonalds.AssemblyInfoInputs.cache
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\mcBonalds\obj\Debug\netcoreapp2.2\mcBonalds.AssemblyInfo.cs
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\mcBonalds\bin\Debug\netcoreapp2.2\mcBonalds.deps.json
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\mcBonalds\bin\Debug\netcoreapp2.2\mcBonalds.runtimeconfig.json
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\mcBonalds\bin\Debug\netcoreapp2.2\mcBonalds.runtimeconfig.dev.json
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\mcBonalds\bin\Debug\netcoreapp2.2\mcBonalds.dll
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\mcBonalds\bin\Debug\netcoreapp2.2\mcBonalds.pdb
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\mcBonalds\obj\Debug\netcoreapp2.2\mcBonalds.dll
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\mcBonalds\obj\Debug\netcoreapp2.2\mcBonalds.pdb
