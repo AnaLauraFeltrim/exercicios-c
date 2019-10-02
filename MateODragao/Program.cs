@@ -5,6 +5,7 @@ namespace MateODragao {
     class Program {
         static void Main (string[] args) {
             bool jogadorNaoDesistiu = true;
+            
 
             do {
 
@@ -20,52 +21,30 @@ namespace MateODragao {
                 switch (opcaoJogador) {
                     case "1":
                         Console.Clear ();
-                        Guerreira guerreira = new Guerreira ();
-                        guerreira.Nome = "Tia";
-                        guerreira.Sobrenome = "May";
-                        guerreira.CidadeNatal = "Brooklyn";
-                        guerreira.DataNascimento = DateTime.Parse ("09/08/1150");
-                        guerreira.FerramentaAtaque = "Espada";
-                        guerreira.FerramentaProtecao = "Armadura de Couro";
-                        guerreira.Força = 3;
-                        guerreira.Destreza = 3;
-                        guerreira.Inteligencia = 2;
-                        guerreira.Vida = 20;
+                        Guerreira guerreira = CriarGuerreiro ();
 
-                        Dragao dragao = new Dragao ();
-                        dragao.Nome = "Dragonildo";
-                        dragao.Força = 5;
-                        dragao.Destreza = 1;
-                        dragao.Inteligencia = 3;
-                        dragao.Vida = 300;
+                        Dragao dragao = CriarDragao();
 
                         /* INÍCIO - primeiro diálogo */
 
-                        System.Console.WriteLine ($"{guerreira.Nome.ToUpper()}: Pega no meu pau, vou enfiar minha espada no seu coraçao, bobão.\n");
+                        CriarDialogo (guerreira.Nome, $" {dragao.Nome} vai tomar no cu");
+                        CriarDialogo (guerreira.Nome, "Pega no meu pau, vou enfiar minha espada no seu coraçao, bobão.\n");
 
-                        System.Console.WriteLine ($"{dragao.Nome.ToUpper()}: KKKKKKKKKKKKKKK! Ih ala ta pensando que é quem, seu otário?\n");
+                        CriarDialogo (dragao.Nome, "KKKKKKKKKKKKKKK! Ih ala ta pensando que é quem, seu otário?\n");
 
-                        System.Console.WriteLine ();
-                        System.Console.WriteLine ("Aperte Enter para prosseguir");
-                        Console.ReadLine ();
+                        FinalizarDialogo ();
 
                         /* FIM - primeiro diálogo */
 
                         /* INÍCIO - segundo diálogo */
 
-                        Console.Clear ();
+                        CriarDialogo (guerreira.Nome, $"E te interessa agora porque? Meu nome é {guerreira.Nome} {guerreira.Sobrenome}, agora vem pro fight, filhão.");
+                        CriarDialogo (guerreira.Nome, $"Vim do {guerreira.CidadeNatal} pra te meter a porrada.");
+                        CriarDialogo (dragao.Nome,  "Mas quem te perguntou? Vou te usar de carvão no meu nargas.");
 
-                        System.Console.WriteLine ($"{guerreira.Nome.ToUpper()}: E te interessa agora porque? Meu nome é {guerreira.Nome} {guerreira.Sobrenome}, agora vem pro fight, filhão.");
-                        System.Console.WriteLine ($"{guerreira.Nome.ToUpper()}:Vim do {guerreira.CidadeNatal} pra te meter a porrada.");
-                        System.Console.WriteLine ($"{dragao.Nome.ToUpper()}: Mas quem te perguntou? Vou te usar de carvão no meu nargas.");
-
-                        System.Console.WriteLine ();
-                        System.Console.WriteLine ("Aperte Enter para prosseguir");
-                        Console.ReadLine ();
+                        FinalizarDialogo ();
 
                         /* FIM - segundo diálogo */
-
-                        Console.Clear ();
 
                         bool jogadorAtacaPrimeiro = guerreira.Destreza > dragao.Destreza ? true : false;
 
@@ -111,11 +90,9 @@ namespace MateODragao {
 
                             }
 
-                            System.Console.WriteLine ("Aperte ENTER para prosseguir");
-                            Console.ReadLine ();
+                            FinalizarDialogo ();
 
                             while (dragao.Vida > 0 && guerreira.Vida > 0 && jogadorNaoCorreu) {
-                                Console.Clear ();
                                 System.Console.WriteLine ("----------Turno do Dragão----------");
                                 Random geradorNumeroAleatorio = new Random ();
                                 int numeroAleatorioJogador = geradorNumeroAleatorio.Next (0, 5);
@@ -152,61 +129,103 @@ namespace MateODragao {
                                         geradorNumeroAleatorio = new Random ();
                                         numeroAleatorioJogador = geradorNumeroAleatorio.Next (0, 5);
                                         numeroAleatorioDragao = geradorNumeroAleatorio.Next (0, 5);
-                                        guerreiroDestrezaTot = guerreira.Destreza + numeroAleatorioJogador; dragaoDestrezaTot = dragao.Destreza + numeroAleatorioDragao;
+                                        guerreiroDestrezaTot = guerreira.Destreza + numeroAleatorioJogador;
+                                        dragaoDestrezaTot = dragao.Destreza + numeroAleatorioDragao;
 
-                                            if (guerreiroDestrezaTot > dragaoDestrezaTot) {
-                                                System.Console.WriteLine ($"{guerreira.Nome.ToUpper()}: Parece que alguém se fodeu, precisa nem esperar o câncer pra morrer.");
-                                                dragao.Vida -= (poderAtaqueGuerreira + 5);
-                                                System.Console.WriteLine ("--------------");
-                                                System.Console.WriteLine ($"HP Dragão: {dragao.Vida}");
-                                                System.Console.WriteLine ($"HP guerreira: {guerreira.Vida}");
-                                            } else {
-                                                System.Console.WriteLine ($"{dragao.Nome.ToUpper()}: KKKKKKK conseguiu errar ainda.");
-                                            }
-
-                                            if(guerreira.Vida <=0){
-                                                System.Console.WriteLine("SE FODEU KKK");
-                                            } 
-
-                                            if(dragao.Vida <=0){
-                                                System.Console.WriteLine("É TETRAAAAAAA");
-                                            }
-
-                                            System.Console.WriteLine();
-                                            System.Console.WriteLine($"{dragao.Nome}");
-                                            System.Console.WriteLine($"{guerreira.Nome}");
-
-                                            break;
-
-                                            case "2":
-                                                jogadorNaoCorreu = false; System.Console.WriteLine ($"{guerreira.Nome.ToUpper()}: To dando o fora daqui, ta ligado meu irmão."); System.Console.WriteLine ($"{dragao.Nome.ToUpper()}: Volta aqui carvão de bosta, quero fumar porra.");
-                                                break;
-
+                                        if (guerreiroDestrezaTot > dragaoDestrezaTot) {
+                                            System.Console.WriteLine ($"{guerreira.Nome.ToUpper()}: Parece que alguém se fodeu, precisa nem esperar o câncer pra morrer.");
+                                            dragao.Vida -= (poderAtaqueGuerreira + 5);
+                                            System.Console.WriteLine ("--------------");
+                                            System.Console.WriteLine ($"HP Dragão: {dragao.Vida}");
+                                            System.Console.WriteLine ($"HP guerreira: {guerreira.Vida}");
+                                        } else {
+                                            System.Console.WriteLine ($"{dragao.Nome.ToUpper()}: KKKKKKK conseguiu errar ainda.");
                                         }
 
-                                        System.Console.WriteLine ("Aperte ENTER para prosseguir");
-                                        Console.ReadLine ();
+                                        if (guerreira.Vida <= 0) {
+                                            System.Console.WriteLine ("SE FODEU KKK");
+                                        }
 
-                                        /*fim - turno jogador */
+                                        if (dragao.Vida <= 0) {
+                                            System.Console.WriteLine ("É TETRAAAAAAA");
+                                        }
+
+                                        System.Console.WriteLine ();
+                                        System.Console.WriteLine ($"{dragao.Nome}");
+                                        System.Console.WriteLine ($"{guerreira.Nome}");
+
+                                        break;
+
+                                    case "2":
+                                        jogadorNaoCorreu = false;
+                                        System.Console.WriteLine ($"{guerreira.Nome.ToUpper()}: To dando o fora daqui, ta ligado meu irmão.");
+                                        System.Console.WriteLine ($"{dragao.Nome.ToUpper()}: Volta aqui carvão de bosta, quero fumar porra.");
+                                        break;
+
                                 }
 
+                                System.Console.WriteLine ("Aperte ENTER para prosseguir");
+                                Console.ReadLine ();
+
+                                /*fim - turno jogador */
                             }
 
-                            /*FIM da Treta */
-
-                            break;
-
-                            case "0":
-                                jogadorNaoDesistiu = false;
-                                break;
-
-                            default:
-                                System.Console.WriteLine ("Comando inválido, bobão");
-                                break;
                         }
-                }
-                while (jogadorNaoDesistiu);
 
+                        /*FIM da Treta */
+
+                        break;
+
+                    case "0":
+                        jogadorNaoDesistiu = false;
+                        break;
+
+                    default:
+                        System.Console.WriteLine ("Comando inválido, bobão");
+                        break;
+                }
             }
+            while (jogadorNaoDesistiu);
+
+        }
+
+        private static void CriarDialogo (string nome, string frase) {
+            System.Console.WriteLine ($"{nome.ToUpper()}: {frase}!");
+        }
+
+        private static void FinalizarDialogo () {
+            Console.WriteLine ();
+            System.Console.WriteLine ("Aperte ENTER para continuar");
+            Console.ReadLine ();
+            Console.Clear ();
+
+        }
+
+        private static Guerreira CriarGuerreiro () {
+            Guerreira guerreira = new Guerreira ();
+            guerreira.Nome = "Tia";
+            guerreira.Sobrenome = "May";
+            guerreira.CidadeNatal = "Brooklyn";
+            guerreira.DataNascimento = DateTime.Parse ("09/08/1150");
+            guerreira.FerramentaAtaque = "Espada";
+            guerreira.FerramentaProtecao = "Armadura de Couro";
+            guerreira.Força = 3;
+            guerreira.Destreza = 3;
+            guerreira.Inteligencia = 2;
+            guerreira.Vida = 20;
+
+            return guerreira;
+        }
+
+        private static Dragao CriarDragao () {
+            Dragao dragao = new Dragao ();
+            dragao.Nome = "Dragonildo";
+            dragao.Força = 5;
+            dragao.Destreza = 1;
+            dragao.Inteligencia = 3;
+            dragao.Vida = 300;
+
+            return dragao;
         }
     }
+}
