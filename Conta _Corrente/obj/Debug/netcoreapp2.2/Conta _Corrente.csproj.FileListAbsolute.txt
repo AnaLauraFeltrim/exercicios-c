@@ -1,0 +1,11 @@
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\Conta _Corrente\obj\Debug\netcoreapp2.2\Conta _Corrente.csprojAssemblyReference.cache
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\Conta _Corrente\obj\Debug\netcoreapp2.2\Conta _Corrente.csproj.CoreCompileInputs.cache
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\Conta _Corrente\obj\Debug\netcoreapp2.2\Conta _Corrente.AssemblyInfoInputs.cache
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\Conta _Corrente\obj\Debug\netcoreapp2.2\Conta _Corrente.AssemblyInfo.cs
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\Conta _Corrente\bin\Debug\netcoreapp2.2\Conta _Corrente.deps.json
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\Conta _Corrente\bin\Debug\netcoreapp2.2\Conta _Corrente.runtimeconfig.json
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\Conta _Corrente\bin\Debug\netcoreapp2.2\Conta _Corrente.runtimeconfig.dev.json
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\Conta _Corrente\bin\Debug\netcoreapp2.2\Conta _Corrente.dll
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\Conta _Corrente\bin\Debug\netcoreapp2.2\Conta _Corrente.pdb
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\Conta _Corrente\obj\Debug\netcoreapp2.2\Conta _Corrente.dll
+C:\Users\46962757875\Documents\Vai se foder\exercicios-c\Conta _Corrente\obj\Debug\netcoreapp2.2\Conta _Corrente.pdb
