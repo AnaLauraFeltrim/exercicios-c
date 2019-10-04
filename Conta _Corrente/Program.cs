@@ -7,17 +7,18 @@ namespace Conta_Corrente {
         static void Main (string[] args) {
 
             System.Console.WriteLine ("Titular da conta: ");
-            string titular = Console.ReadLine ();
+            string cliente = Console.ReadLine ();
             System.Console.WriteLine ("Agência do titular");
             int agencia = int.Parse (Console.ReadLine ());
             System.Console.WriteLine ("Número da conta");
             int numerodaconta = int.Parse (Console.ReadLine ());
 
-            ContaCorrente novaconta = new ContaCorrente (agencia, numerodaconta, titular);
-
+            ContaCorrente novaconta = new ContaCorrente (agencia, numerodaconta, cliente);
+            double saldo;
+            
             do {
                 System.Console.WriteLine ("Insira o saldo:");
-                double saldo = double.Parse (Console.ReadLine ());
+                saldo = double.Parse (Console.ReadLine ());
                 bool contaOk = novaconta.SaldoNegativo (saldo);
                 if (!contaOk) {
                     System.Console.WriteLine ("Não foi possível criar sua conta");
@@ -26,6 +27,15 @@ namespace Conta_Corrente {
                 }
 
             }while(!contaOk);
+
+            /*DEPÓSITO - INÍCIO */
+            
+            do{
+                System.Console.WriteLine("Valor depositado");
+                double deposito = int.Parse(Console.ReadLine());
+                double saldoAtual = deposito + saldo;
+                
+            } 
         }
     }
 }

@@ -2,14 +2,14 @@ namespace Conta_Corrente
 {
     public class ContaCorrente
     {
-        public string Titular {get; set;}
+        public string Cliente {get; set;}
         public int Agencia {get; set;}
         public int NumeroDaConta {get; set;}
         public double Saldo {get; set;}
 
-        public ContaCorrente (int Agencia, int NumeroDaConta, string Titular){
-            Saldo = 0;
-            this.Titular = Titular;
+        public ContaCorrente (int Agencia, int NumeroDaConta, string Cliente){
+            this.Saldo = Saldo;
+            this.Cliente = Cliente;
             this.Agencia = Agencia;
             this.NumeroDaConta = NumeroDaConta;
 
@@ -21,6 +21,11 @@ namespace Conta_Corrente
             }else {
                 return true;
             }
+        }
+
+        public double Deposito (double deposito){
+            
+            return Saldo; 
         }
     }
 }
