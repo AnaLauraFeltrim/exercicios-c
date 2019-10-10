@@ -53,12 +53,12 @@ namespace TodoList
             return 0;
         }
 
-        static List<TodoItem> initList(string filePath)
+        static List<TodoItem> initList(string path)
         {
             List<TodoItem> todoList = new List<TodoItem>();
 
             try{
-                string[] todoFile = File.ReadAllLines(@filePath);
+                string[] todoFile = File.ReadAllLines(@path);
                 
                 foreach(string line in todoFile){
                     string[] itens = line.Split(",");

@@ -1,0 +1,8 @@
+aluno.nome = aluno.AlocarAluno;
+                        aluno.AlocarAluno = sala.numeroSala + aluno.nome;
+                        aluno.AlocarAluno = Console.ReadLine();
+                        
+                        aluno.AlocarAluno = sala.alunos [alunosCadastrados]  ;
+                        System.Console.WriteLine("Em que sala ?");
+                        sala.numeroSala = int.Parse(Console.ReadLine());
+                        System.Console.WriteLine("Aluno foi alocado com sucesso");

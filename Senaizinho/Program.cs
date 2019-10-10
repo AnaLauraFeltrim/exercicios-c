@@ -3,7 +3,7 @@
 namespace Senaizinho {
     class Program {
         static void Main (string[] args) {
-            Aluno[] alunos = new Aluno[100];
+            Aluno[] alunos = new Aluno[2];
             int alunosCadastrados = 0;
             Sala[] salas = new Sala[10];
             int salasCadastradas = 0;
@@ -39,8 +39,6 @@ namespace Senaizinho {
                         System.Console.WriteLine ("Curso: ");
                         aluno.curso = Console.ReadLine ();
 
-                        System.Console.WriteLine ("Sala: ");
-                        aluno.numeroSala = int.Parse (Console.ReadLine ());
 
                         alunos[alunosCadastrados] = aluno;
                         alunosCadastrados++;
@@ -53,8 +51,8 @@ namespace Senaizinho {
                         System.Console.WriteLine ("Número da sala: ");
                         sala.numeroSala = int.Parse (Console.ReadLine ());
 
-                        System.Console.WriteLine ("Capacidade atual: ");
-                        System.Console.WriteLine("Capacidade máxima: 10");
+                        System.Console.WriteLine ($"Capacidade atual: {alunosCadastrados} ");
+                        System.Console.WriteLine("Capacidade máxima: 10"); 
                         salas[salasCadastradas] = sala;
                         salasCadastradas++;
 
@@ -62,7 +60,12 @@ namespace Senaizinho {
 
                     case "3":
                         System.Console.WriteLine ("Qual aluno deseja alocar? ");
-                        Console.ReadLine ();
+                        foreach(var item in alunos){
+                            Console.WriteLine($"{aluno.nome}");
+                        }
+                        
+                        
+                        
                         break;
 
                     case "4":
@@ -79,11 +82,8 @@ namespace Senaizinho {
                                 System.Console.WriteLine ($"Número da sala: {item.numeroSala} ");
                                 System.Console.WriteLine($"Capacidade total: {item.capacidadeTotal}");
                                 System.Console.WriteLine("-----------------------------------------");
-
                             }    
                         }
-                        
-
                         break;
 
                     case "6":
@@ -94,15 +94,9 @@ namespace Senaizinho {
                                 System.Console.WriteLine ($"Nome do aluno: {item.nome}");
                                 System.Console.WriteLine($"Curso: {item.curso}");
                                 System.Console.WriteLine($"Sala: {item.numeroSala}");
-                                System.Console.WriteLine("-----------------------------------------");
-                                
+                                System.Console.WriteLine("-----------------------------------------");                              
                             }
-                            
-
                         }
-                        
-                        
-
                         break;
 
                 }

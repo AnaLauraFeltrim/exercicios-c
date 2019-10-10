@@ -7,8 +7,10 @@ namespace Senaizinho
         public int numeroSala {get; set;}
         public string[] alunos {get; set;}
 
-        public string AlocarAluno {get;set;}
+        public string AlocarAluno ;
         public string RemoverAluno {get;set;}
         public string MostrarAlunos {get;set;}
+
+        
     }
 }
