@@ -3,7 +3,7 @@
 namespace Senaizinho {
     class Program {
         static void Main (string[] args) {
-            Aluno[] alunos = new Aluno[2];
+            Aluno[] alunos = new Aluno[5];
             int alunosCadastrados = 0;
             Sala[] salas = new Sala[10];
             int salasCadastradas = 0;
@@ -59,9 +59,10 @@ namespace Senaizinho {
                         break;
 
                     case "3":
-                        System.Console.WriteLine ("Qual aluno deseja alocar? ");
-                        foreach(var item in alunos){
-                            Console.WriteLine($"{aluno.nome}");
+                        System.Console.WriteLine (" Em que sala deseja colocar o aluno? ");
+                        int salaAlocar = int.Parse(Console.ReadLine());
+                        foreach(var item in salas){
+                            
                         }
                         
                         
