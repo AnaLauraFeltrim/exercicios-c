@@ -1,5 +1,4 @@
-using System;
-namespace EscolaDeRock.Interfaces
+﻿namespace EscolaDeRock.Interfaces
 {
     public interface IPercussao
     {
