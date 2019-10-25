@@ -6,7 +6,7 @@ namespace Area_dos_bagulho
     {
         static void Main(string[] args)
         {
-              int num1 = 0;
+            int num1 = 0;
             int num2 = 0;
             int num3 = 0;
             double total;
