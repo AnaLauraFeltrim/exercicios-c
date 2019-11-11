@@ -1,12 +1,34 @@
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
-    namespace McBonaldsMVC.Controllers
-    {
-        public class ClienteController : Controller
-        {
-            public IActionResult Login()
-            {
-                return View();
+namespace McBonaldsMVC.Controllers {
+    public class ClienteController : Controller {
+        [HttpGet]
+        public IActionResult Login () {
+
+            return View ();
+        }
+
+        [HttpPost]
+
+        
+        public IActionResult Login (IFormCollection form) {
+
+            ViewData["Action"] = "Login";
+            try {
+                System.Console.WriteLine ("000000000000000000000000000000");
+                System.Console.WriteLine (form["email"]);
+                System.Console.WriteLine (form["senha"]);
+                System.Console.WriteLine ("000000000000000000000000000000");
+
+                return View("Sucesso");
+
+            } catch (Exception e) {
+                System.Console.WriteLine (e.StackTrace);
+                return View ("Erro");
             }
+
         }
     }
+}
