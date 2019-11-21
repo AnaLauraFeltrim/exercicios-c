@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\40205836844\\Desktop\\Exercicios\\McBonalds MVC\\McBonalds MVC.csproj": {}
+    "C:\\Users\\45300889873\\Downloads\\Exercicios\\McBonalds MVC\\McBonalds MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\40205836844\\Desktop\\Exercicios\\McBonalds MVC\\McBonalds MVC.csproj": {
+    "C:\\Users\\45300889873\\Downloads\\Exercicios\\McBonalds MVC\\McBonalds MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\40205836844\\Desktop\\Exercicios\\McBonalds MVC\\McBonalds MVC.csproj",
+        "projectUniqueName": "C:\\Users\\45300889873\\Downloads\\Exercicios\\McBonalds MVC\\McBonalds MVC.csproj",
         "projectName": "McBonalds MVC",
-        "projectPath": "C:\\Users\\40205836844\\Desktop\\Exercicios\\McBonalds MVC\\McBonalds MVC.csproj",
-        "packagesPath": "C:\\Users\\40205836844\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\40205836844\\Desktop\\Exercicios\\McBonalds MVC\\obj\\",
+        "projectPath": "C:\\Users\\45300889873\\Downloads\\Exercicios\\McBonalds MVC\\McBonalds MVC.csproj",
+        "packagesPath": "C:\\Users\\45300889873\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\45300889873\\Downloads\\Exercicios\\McBonalds MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\40205836844\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\45300889873\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

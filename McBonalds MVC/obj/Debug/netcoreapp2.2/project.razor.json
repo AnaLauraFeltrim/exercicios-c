@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\40205836844\\Desktop\\Exercicios\\McBonalds MVC\\McBonalds MVC.csproj",
+  "FilePath": "c:\\Users\\46962757875\\Documents\\Vai se foder\\exercicios-c\\McBonalds MVC\\McBonalds MVC.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2983,6 +2983,11 @@
     {
       "FilePath": "Views\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Cliente\\Historico.cshtml",
+      "TargetPath": "Views\\Cliente\\Historico.cshtml",
       "FileKind": "mvc"
     },
     {
