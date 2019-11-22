@@ -5,45 +5,56 @@ using McBonalds_MVC.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace McBonaldsMVC.Controllers
-{
-    public class PedidoController : Controller
-    {
+namespace McBonalds_MVC.Controllers {
+    public class PedidoController : AbstractController {
 
-        PedidoRepository pedidoRepository = new PedidoRepository();
-        HamburguerRepository hamburguerRepository = new HamburguerRepository();
-
+        PedidoRepository pedidoRepository = new PedidoRepository ();
+        HamburguerRepository hamburguerRepository = new HamburguerRepository ();
         ShakeRepository shakeRepository = new ShakeRepository();
-        public IActionResult Index()
-        {
-            var hamburgueres = hamburguerRepository.ObterTodos();
-            var shakes = shakeRepository.ObterTodos();
-
+        ClienteRepository clienteRepository = new ClienteRepository();
+        public IActionResult Index () {
+            var hamburgueres = hamburguerRepository.ObterTodos ();
             PedidoViewModel pedido = new PedidoViewModel();
             pedido.Hamburgueres = hamburgueres;
-            pedido.Shakes = shakes;
-            
-            return View(pedido);
-        }
 
-        public IActionResult Registrar(IFormCollection form)
-        {
-            Pedido pedido = new Pedido();
+            var shake = shakeRepository.ObterTodos ();
+            pedido.Shakes = shake;
+
+            var usuarioLogado = ObterUsuarioSession();
+            var nomeUsuarioLogado = ObterUsuarioNomeSession();
+
             
-            Shake shake = new Shake();
-            var nomeShake = form["shake"];
-            shake.Nome = nomeShake;
-            shake.Preco = shakeRepository.ObterPrecoDe(nomeShake);
+            if(!string.IsNullOrEmpty(nomeUsuarioLogado))
+            {
+                pedido.NomeUsuario = nomeUsuarioLogado;
+            }
+            
+            var clienteLogado = clienteRepository.ObterPor(usuarioLogado);
+            
+            if(clienteLogado != null)
+            {
+                pedido.Cliente = clienteLogado;
+            }
+            return View (pedido);
+        }
+        public IActionResult Registrar (IFormCollection form) {
+            Pedido pedido = new Pedido ();
+
+            Shake shake = new Shake ();
+            shake.Nome = form["shake"];
+            shake.Preco = shakeRepository.ObterPrecoDe(form["shake"]) ;
 
             pedido.Shake = shake;
 
-            Hamburguer hamburguer = new Hamburguer (form["hamburguer"], hamburguerRepository.ObterPrecoDe(form["hamburguer"]));
+            
+
+            var nomeHamburguer = form["hamburguer"];
+            Hamburguer hamburguer = new Hamburguer (nomeHamburguer, hamburguerRepository.ObterPrecoDe(nomeHamburguer));
 
             pedido.Hamburguer = hamburguer;
 
-            Cliente cliente = new Cliente()
-            {
-                Nome = form["nome"],
+            Cliente cliente = new Cliente () {
+                Nome = form["Nome"],
                 Endereco = form["endereco"],
                 Telefone = form["telefone"],
                 Email = form["email"]
@@ -55,9 +66,11 @@ namespace McBonaldsMVC.Controllers
 
             pedido.PrecoTotal = hamburguer.Preco + shake.Preco;
 
-            pedidoRepository.Inserir(pedido);
-            
-            return View("Sucesso");
+            pedidoRepository.Inserir (pedido);
+
+        
+
+            return View ("Sucesso");
         }
     }
 }
